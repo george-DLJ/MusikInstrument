@@ -8,7 +8,7 @@
 #include "ButtonControl.h"
 
 namespace MusikInstrument {
-
+///////
 ButtonControl::ButtonControl() {
 	// TODO Auto-generated constructor stub
 
