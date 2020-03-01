@@ -22,6 +22,7 @@ public:
 	void setLinealPosition(int value); // set position on the string in mm
 private:
 
+	StepperMotor motor
 	int gearRatio; //Stores the transmission ratio between motor and rim.
 	int maxValue; // max allowed value after calibration; 0 is set on min Endstop (some steps before endstop was triggered).
 	//bool minEndStop; //TODO: attach endstops to event. trigger Emergency stop if motor is not in calibration
